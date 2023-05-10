@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor-banco de dados e views",
+  "main": "hb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaC-GG/server_base_hb_2.git"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaC-GG/server_base_hb_2/issues"
+  },
+  "homepage": "https://github.com/MariaC-GG/server_base_hb_2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.3.0",
+    "sequelize": "^6.31.1"
+  }
+}
